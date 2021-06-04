@@ -27,5 +27,5 @@
         name: docker
         state: started
         enabled: true
-   - name: deploy war-test image
+   - name: deploy batch10 image
      command: sudo docker run -it -d -p 8888:8888 prabhat2020/case:1.0.0
