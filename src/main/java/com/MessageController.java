@@ -19,7 +19,7 @@ private static final Logger log = LoggerFactory.getLogger(MessageController.clas
 	public String sayHello() {
 		//System.out.println("Hello from test app");
 		log.info("hello from test app1");
-		return "hello from bootcamp";
+		return "hello from bootcamp10";
 	}
 
 }
