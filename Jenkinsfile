@@ -50,9 +50,9 @@ try {
             }
         }
         
-//          stage('Ansible Deployment') {
-//             ansiblePlaybook credentialsId: 'ansibleCred', disableHostKeyChecking: true, installation: 'ansible', inventory: '/etc/ansible/hosts', playbook: 'demo-playbook.yml'
-//          }
+         stage('Ansible Deployment') {
+            ansiblePlaybook credentialsId: 'ansibleCred', disableHostKeyChecking: true, installation: 'ansible', inventory: '/etc/ansible/hosts', playbook: 'demo-playbook.yml'
+         }
         
         
      }
