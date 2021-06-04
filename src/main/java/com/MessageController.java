@@ -18,7 +18,7 @@ private static final Logger log = LoggerFactory.getLogger(MessageController.clas
 	@RequestMapping("/hello")
 	public String sayHello() {
 		//System.out.println("Hello from test app");
-		log.info("hello from test app1");
+		log.info("hello from spring app1");
 		return "hello from bootcamp10";
 	}
 
