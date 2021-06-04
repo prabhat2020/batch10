@@ -28,4 +28,4 @@
         state: started
         enabled: true
    - name: deploy war-test image
-     command: sudo docker run -it -d -p 8085:8080 prabhat2020/case:1.0.0
+     command: sudo docker run -it -d -p 8888:8888 prabhat2020/case:1.0.0
